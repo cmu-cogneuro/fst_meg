@@ -1,7 +1,7 @@
 function recon_averaging(pics1,configs_150,mask)
 
-% Reconstructs face images from neural data and implements first step in
-% assessing reconstruction performance.
+% Generates reconstructions and implements first step in
+% calculating accuracy.
 %MDV Dec 2015
 
 % Inputs:
