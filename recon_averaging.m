@@ -12,7 +12,7 @@ function recon_averaging(pics1,configs_150,mask)
 %3. mask - binary image defining an oval mask. size must match the first two dimensions of face images. All processing of face images
 %occurs within the mask.
 
-% Copyright (C) Mark Vida
+% Copyright (C) MD Vida
 %
 % This program is free software; you can redistribute it and/or modify
 % it under the terms of the GNU General Public License as published by
