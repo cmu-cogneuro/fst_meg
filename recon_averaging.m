@@ -1,7 +1,7 @@
 function recon_averaging(pics1,configs_150,mask)
 
 % Generates reconstructions and implements first step in
-% calculating accuracy.
+% calculating accuracy. SHould be run before recon_accuracy.m
 %MDV Dec 2015
 
 % Inputs:
@@ -35,7 +35,7 @@ n = 91; %number of face identities in set
 height = 206; % height of face images
 width = 150; %width of face images
 
-% Pre-allocate space to store face images and reconstructions.
+% Pre-allocate space to save time
 cors_lum = zeros(n,n,length(time));
 cors_a = zeros(n,n,length(time));
 cors_b = zeros(n,n,length(time));

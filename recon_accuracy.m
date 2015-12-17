@@ -1,6 +1,6 @@
 function recon_accuracy(cors_lum,cors_a,cors_b,neighbours)
 
-%Takes correlation matrices output by recon_averaging.m and computes accuracy
+%Takes correlation matrices output by recon_averaging.m and computes accuracy. Should be run after recon_averaging.m
 %MDV Dec 2015
 
 %Inputs:
@@ -40,7 +40,7 @@ for curChan = 1:3
         cors_lum = cors_b;
     end
   
-% Pre-allocate variables to save space
+% Pre-allocate space to save time
 accuracy = zeros(n,1);
 
 % Loop through reconstructions
