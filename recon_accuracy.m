@@ -12,7 +12,7 @@ function recon_accuracy(cors_lum,cors_a,cors_b,neighbours)
 %* k, where n is the number of identities reconstructed and k is the number
 %of identities included in the reconstruction
 
-% Copyright (C) MD Vida
+% Copyright (C) Behrmann lab
 %
 % This program is free software; you can redistribute it and/or modify
 % it under the terms of the GNU General Public License as published by
