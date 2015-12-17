@@ -54,8 +54,9 @@ acc_cases = sum(others_cor<orig_cor); %Find number of cases in which correlation
 accuracy(currecon) = acc_cases/(n-1-k); %Convert to proportion - note that denominator is the number of face identities in total excluding the target face and the faces included in the reconstruction.
 % Do CI for accuracy here
 end
-end
 save(sprintf('accuracy_%s.mat',num2str(curChan)),'accuracy') %Save accuracy
+end
+
 
 
  
